@@ -8,6 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
+/*
+ * I want the user being able to edit the command after he clicked it in the suggestion-dropdown,
+ * instead of instantly sending it. So he always has to confirm with a press on enter to send,
+ * after suggestion is put in the input textbox. I've tried it with a boolean,
+ * but then he has to press enter twice for non-suggested commands.
+*/
 namespace AutocompleteIssue
 {
     public partial class Form1 : Form
